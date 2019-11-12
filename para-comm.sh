@@ -19,7 +19,7 @@ while getopts "hsf:u:l:c:" flag; do
         echo "  -h prints this help message."
         echo "  -u Give user. Default user is service"
         echo "  -l Ldap server Authentication"
-        echo "eg: cat <serverlist> | pcomm.sh -c 'uptime' "
+        echo "eg: cat <serverlist> | para-comm.sh -c 'uptime' "
         exit 0
         ;;
 
